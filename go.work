@@ -3,6 +3,7 @@ go 1.21.4
 use (
 	./command
 	./decorater
+	./factory
 	./observer/pull
 	./observer/push
 	./strategy

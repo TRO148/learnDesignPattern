@@ -23,7 +23,7 @@ func Tall(b beverage.Beverage) beverage.Beverage {
 }
 
 func Grande(b beverage.Beverage) beverage.Beverage {
-	condiments := .GetDescription() + ", Grande"
+	condiments := b.GetDescription() + ", Grande"
 	cost := b.Cost() + 0.15
 
 	newBeverage := &BaseBeverage{cost: cost, description: formatString(condiments)}
