@@ -5,6 +5,7 @@ use (
 	./command
 	./decorater
 	./factory
+	./iterator
 	./observer/pull
 	./observer/push
 	./strategy
